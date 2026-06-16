@@ -45,16 +45,16 @@
       margin-right: 1.2em;
     }
 
-    .paper {
-      margin-bottom: 1.5em;
+    ol.paper-list {
+      padding-left: 1.5em;
     }
 
-    .title {
+    ol.paper-list li {
+      margin-bottom: 1.2em;
+    }
+
+    .paper-title {
       font-weight: 600;
-    }
-
-    .meta {
-      color: #555;
     }
 
     footer {
@@ -69,38 +69,38 @@
 
 <body>
   <header>
-    <h1>Papers and Preprints</h1>
+    <h1>Papers</h1>
 
     <nav>
-      index.htmlHome</a>
-      papers.htmlPapers</a>
-      talks.htmlTalks</a>
+      <a href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="talks.html">Talks</a>
     </nav>
   </header>
 
-  <section>
-    <h2>Preprints</h2>
+  <main>
+    <h2>Papers and Preprints</h2>
 
-    <div class="paper">
-      <div class="title">Paper title</div>
-      <div class="meta">with Coauthor, preprint, 2026.</div>
-      <div>
-        #arXiv</a>
-      </div>
-    </div>
-  </section>
+    <ol class="paper-list">
+      <li>
+        <span class="paper-title">Regular rings and perfectoid towers</span>,
+        <a href="https://arxiv.org/abs/2605.27337">arxiv:2605.27337</a>,
+        (2026).
+      </li>
 
-  <section>
-    <h2>Publications</h2>
-
-    <div class="paper">
-      <div class="title">Published paper title</div>
-      <div class="meta">Journal name, volume, pages, year.</div>
-      <div>
-        #DOI</a>
-      </div>
-    </div>
-  </section>
+      <li>
+        <span class="paper-title">A characterization of perfectoid towers in terms of conormal cones</span>,
+        <a href="https://arxiv.org/abs/2605.27279">arxiv:2605.27279</a>,
+        (2026).
+      </li>
+      
+      <li>
+        <span class="paper-title">Structural properties and tilting correspondences of perfectoid towers</span>,
+        <a href="https://arxiv.org/abs/2605.27283">arxiv:2605.27283</a>,
+        (2026).
+      </li>
+    </ol>
+  </main>
 
   <footer>
     <p>Last updated: 2026-06-16</p>
