@@ -38,7 +38,20 @@ nav {
 }
 
 nav a {
-  margin-right: 1.2em;
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 0.35em 0.8em;
+  border: 1px solid #0645ad;
+  border-radius: 999px;
+  color: #0645ad;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #0645ad;
+  color: #fff;
+  text-decoration: none;
 }
 
 .subtitle {
