@@ -28,3 +28,74 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 0.35em 0.8em;
+  border: 1px solid #0645ad;
+  border-radius: 999px;
+  color: #0645ad;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #0645ad;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a.active {
+  background: #0645ad;
+  color: #fff;
+  border-color: #0645ad;
+  font-weight: 700;
+}
+
+nav a.active:hover {
+  background: #043b8a;
+  color: #fff;
+  border-color: #043b8a;
+  text-decoration: none;
+}
+
+.subtitle {
+  color: #555;
+  margin-top: 0;
+}
+
+.paper-list,
+.talk-list {
+  padding-left: 1.5em;
+}
+
+.paper-list li,
+.talk-list li {
+  margin-bottom: 1.2em;
+}
+
+.paper-title,
+.talk-title {
+  font-weight: 600;
+}
+
+.meta {
+  color: #555;
+}
+
+footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 0.9em;
+}
