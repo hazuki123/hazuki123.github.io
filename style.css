@@ -55,9 +55,9 @@ nav a:hover {
 }
 
 nav a.active {
-  background: #0b56c2;
-  color: #fff;
-  border-color: #0b56c2;
+  background: #dbeafe;
+  color: #0645ad;
+  border-color: #93c5fd;
   font-weight: 700;
 }
 
