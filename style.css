@@ -49,13 +49,13 @@ nav a {
 }
 
 nav a:hover {
-  background: #0645ad;
+  background: #dbeafe;
   color: #fff;
   text-decoration: none;
 }
 
 nav a.active {
-  background: #dbeafe;
+  background: #0645ad;
   color: #0645ad;
   border-color: #93c5fd;
   font-weight: 700;
